@@ -1,0 +1,252 @@
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 700px;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    background-color: #dddddd;
+}
+nav {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    background-color: yellow;
+}
+nav header {
+    width: 20%;
+    min-width: 380px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+nav header h1{
+      font-size: 2em;
+}
+nav header img {
+  width: 40px;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    width: 80%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li {
+  list-style: none;
+}
+#home {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  vertical-align:center;
+  padding-top:160px;
+}
+#home section {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+#home section div {
+  padding:20px 0px 20px 0px;;
+  font-weight: bold;
+  display: flex;
+  justify-content:center;
+}
+#home section form {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+#home section form input {
+  height: 30px;
+  width: 80%;
+  border-radius: 6px;
+  margin: 10px auto 10px auto;
+}
+#home section form input[type=submit] {
+  background-color: orange;
+  font-weight: bold;
+  width: 70%;
+}
+#feature {
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding-top: 60px;
+}
+#feature section {
+  width: 80%;
+  height: auto;
+  min-height: 80%;
+  max-height: auto;
+}
+#working {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  padding-top: 160px;
+}
+#working section {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+#working section iframe {
+  margin: 0px auto 0px auto;
+  width: 560px;
+  height: 315px;
+}
+#pricing {
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  justify-content:center;
+  padding-top: 160px;
+}
+#pricing section {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#pricing section .box {
+  width: 30%;
+  max-width: 260px;
+  height: 300px;
+  disply:flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: lightgray;
+  margin: 20px auto;
+}
+#pricing section .box .select {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto auto auto;
+  background-color: orange;
+  color: black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 1em;
+}
+#pricing section .box div {
+  width: 100%;
+  padding: 8px 0px;
+  display: flex;
+  justify-content: center;
+}
+.box-title {
+  background-color: gray;
+  display: flex;
+  font-weight: bold;
+}
+.price {
+  font-size:1.4em;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  height: 120px;
+  display:flex;
+  flex-direction: column;
+  background-color: #999999;
+}
+footer section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer section div {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer section div .copyright-div{
+  width: 100%;
+}
+footer section div a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 8px;
+}
+@media (max-width:740px) {
+  body {
+    min-width: 340px;
+  }
+  nav {
+    display: block;
+    width: 100%;
+}
+nav header {
+    width: 100%;
+    min-width: 300px;
+    height: 60%;
+}
+nav ul {
+    width: 100%;
+    height: 40%;
+}
+#home section {
+    width: 100%;
+}
+#home section form input {
+  max-width: 280px;
+}
+#home section form input[type=submit] {
+  max-width: 160px;
+}
+#feature section {
+  width: 100%;
+}
+#working section {
+  width: 100%;
+}
+#working section iframe {
+  width: 354px;
+  height: 200px;
+}
+  #pricing section {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+#pricing section .box {
+  width:  90%;
+  min-width: 260px;
+  max-width: 280px;
+}
+}
