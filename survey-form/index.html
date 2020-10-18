@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Survey Form. Freecodecamp's responsive web desin's Second project">
+    <title>Survey Form</title>
+    <link href="./style/style.css" type="text/css" rel="stylesheet" >
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">Freecodecamp's <img class="logo" src="./img/fcc-logo-black.svg" alt="Freecodecamp Logo"> Feedback Form</h1>
+            <h4 id="description">Collecting Feedback for improve organization</h4>
+        </header>
+        <form id="survey-form" action="submit">
+            <label id="name-label" class="full-width" for="name">Name<input id="name" class="input-box" type="text" id="name" name="name" placeholder="Enter your Name" required>
+            </label>
+            <label id="email-label" class="full-width" for="email">Email<input id="email" class="input-box" type="email" id="email" name="email" placeholder="Enter your Email" required >
+            </label>
+            <label id="number-label" class="full-width" for="age">Age (optional)<input id="number" class="input-box" type="number" id="age" name="age" placeholder="Enter your Age" min="10" max="110">
+            </label>
+            <label class="full-width" >Describe your current role
+                <input class="flex-input" hidden="hidden" required>
+                    <select id="dropdown">
+                        <option value="select an option" selected disabled>select an option</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="jobseeker">Job Seeker</option>
+                        <option value="notmentioned">Not mentioned</option>
+                        <option value="prefernottosay">Prefer not to say</option>
+                    </select>
+                </input>
+            </label>
+            <label class="full-width">Would you recommend freeCodeCamp to a friend?
+                     <label class="radio-text"><input class="radio" type="radio" name="recommend" >Definitely</label>
+                          <label class="radio-text"><input class="radio" type="radio" name="recommend" >Never</label>
+                       <label class="radio-text" for="nottosay"><input class="radio" type="radio" id="nottosay" name="recommend">Not to say</label>
+            </label>
+            <label class="full-width">What is your favorite feature of freeCodeCamp?<input class="flex-input" hidden="hidden" required>
+                    <select id="dropdown">
+                        <option value="select an option" selected disabled>select an option</option>
+                        <option value="project">Project</option>
+                        <option value="challenge">Challenge</option>
+                        <option value="community">Community</option>
+                        <option value="opensource">Open source</option>
+                    </select>
+                </input>
+            </label>
+            <label class="full-width">What would you like to see improved?<label for="option1"><input type="checkbox" id="option1" value="Front-end-Projects">Front-end Projects</label>
+                    <label for="option2"><input type="checkbox" id="option2" value="Back-end-Projects" name="Back end Projects">Back-end Projects</label>
+                <label for="option3"><input type="checkbox" id="option3" value="Data-Visualization">Data Visualization</label>
+                    <label for="option4"><input type="checkbox" id="option4" value="Challenges">Challenges</label>
+           <label for="option5"><input type="checkbox" id="option5" value="Open-Source-Community">Open Source Community</label>
+                <label for="option6"><input type="checkbox" id="option6" value="Gitter-help-rooms">Gitter help rooms</label>
+                <label for="option7"><input type="checkbox" id="option7" value="Videos">Videos</label>
+                          <label for="option8"><input type="checkbox" id="option8" value="City-Meetups">City Meetups</label>
+                          <label for="option9"><input type="checkbox" id="option9" value="Wiki" >Wiki</label>
+                         <label for="option10"><input type="checkbox" id="option10" value="Forum" >Forum</label>
+                         <label for="option11"><input type="checkbox" id="option11" value="Additional-Courses">Additional Courses</label>
+            </label>
+            <label class="full-width" for="comment">Any comments or suggestions?<textarea class="big-input-box" id="comment" placeholder="Enter your comment or description here" rows="10"></textarea></label>
+            <input class="full-width-button" type="submit" value="Submit">
+        </form>
+    </main>
+  <footer>
+    <a href="https://github.com/ba1u/freecodecamp/tree/master/responsive-web/project2" target="_blank" >Source Code</a>
+  </footer>
+</body>
+</html>
