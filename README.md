@@ -1,2 +1,2 @@
 # FreeCodeCamp
-Freecodecamp projects
+Responsive web design projects
