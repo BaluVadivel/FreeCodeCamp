@@ -192,7 +192,7 @@ nav ul {
   width: 80%;
   max-width: 240px;
 }
-#footer .policy {
+.policy {
   justify-content: space-between;
   width: calc(100% - 16px);
   margin: 0px 8px;
