@@ -2,8 +2,10 @@ html, body{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    height: auto;
     scroll-behavior: smooth;
     font-size: 16px;
+    background-color: #fff;
 }
 nav {
     width: 300px;
@@ -11,7 +13,7 @@ nav {
     top: 0px;
     overflow-x: auto;
     overflow-y: scroll;
-    background-color: rgb(238, 238, 238);
+    background-color: #fff;
     position: fixed;
 }
 nav header {
@@ -53,7 +55,8 @@ main section p code {
     display: flex;
     width: 100%;
     height: auto;
-    background-color: rgb(221, 221, 221);
+    overflow-x: scroll;
+    background-color: #fff;
     border-radius: 4px;
     padding: 4px 0px;
     margin: 12px 0px;
