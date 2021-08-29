@@ -10,18 +10,18 @@
 <body>
     <main>
         <header>
-            <h1 id="title">Freecodecamp <img class="logo" src="assets/img/fcc-logo-black.svg" alt=""> Feedback Form</h1>
-            <h4 id="description"> Collecting Feedback to improve organization</h4>
+            <h1 id="title">Freecodecamp <img class="logo" src="https://raw.githubusercontent.com/BaluVadivel/FreeCodeCamp/main/survey-form/assets/img/fcc-logo-black.svg" alt=""> Feedback Form</h1>
+            <p id="description"> Collecting Feedback to improve organization</p>
         </header>
         <form id="survey-form" action="submit">
-            <label class="full-width">Name
-                <input class="input-box" type="text" name="name" placeholder="Enter your Name" required>
+            <label class="full-width" id="name-label">Name
+                <input class="input-box" type="text" id="name" name="name" placeholder="Enter your Name" required>
             </label>
-            <label class="full-width">Email
-                <input class="input-box" type="email" name="email" placeholder="Enter your Email" required >
+            <label class="full-width" id="email-label">Email
+                <input class="input-box" type="email" id="email" name="email" placeholder="Enter your Email" required >
             </label>
-            <label class="full-width">Age (optional)
-                <input class="input-box" type="number" name="age" placeholder="Enter your Age" min="10" max="110">
+            <label class="full-width" id="number-label">Age (optional)
+                <input class="input-box" type="number" name="age" placeholder="Enter your Age" min="10" max="110" id="number">
             </label>
             <label class="full-width" >Describe your current role
                 <select class="select">
@@ -34,12 +34,12 @@
                 </select>
             </label>
             <label class="full-width">Would you recommend freeCodeCamp to a friend?
-                <label class="radio-text"><input class="radio" type="radio" name="recommend">Definitely</label>
-                <label class="radio-text"><input class="radio" type="radio" name="recommend">Never</label>
-                <label class="radio-text"><input class="radio" type="radio" name="recommend">Not to say</label>
+                <label class="radio-text"><input class="radio" type="radio" name="recommend" value="Definitely">Definitely</label>
+                <label class="radio-text"><input class="radio" type="radio" name="recommend" value="Never">Never</label>
+                <label class="radio-text"><input class="radio" type="radio" name="recommend" value="Not to say">Not to say</label>
             </label>
             <label class="full-width">What is your favorite feature of freeCodeCamp?
-                <select class="select">
+                <select class="select" id="dropdown">
                     <option value="select an option" selected disabled>select an option</option>
                     <option value="project">Project</option>
                     <option value="challenge">Challenge</option>
@@ -63,7 +63,7 @@
             <label class="full-width">Any comments or suggestions?
                 <textarea class="big-input-box" placeholder="Enter your comment or description here" rows="10"></textarea>
             </label>
-            <input class="full-width-button" type="submit" value="Submit">
+            <input class="full-width-button" id="submit" type="submit" value="Submit">
         </form>
     </main>
   <footer>

@@ -1,200 +1,200 @@
 html, body {
-    margin: 0px;
-    width: 100%;
-    height: auto;
-    font-size: 20px;
-    scroll-behavior: smooth;
-    background-color: #dddddd;
-}
-nav {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    position: fixed;
-    background-color: yellow;
-}
-nav header {
-    width: 20%;
-    min-width: 380px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-nav a{
-  text-decoration: none;
-  color: black;
-}
-nav header h1{
-      font-size: 2em;
-}
-nav header img {
-  width: 40px;
-}
-nav ul {
-    margin: 0px;
-    padding: 0px;
-    width: 80%;
-    height: 100%;
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-}
-nav ul li {
-  list-style: none;
-}
-section {
+  margin: 0px;
   width: 100%;
   height: auto;
-  padding-top:100px;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  background-color: #dddddd;
+}
+#header {
   margin: 0px;
-}
-#home{
-  display: flex;
-  flex-direction: column;
-  padding-top:160px;
-}
-#home div {
-  margin: 20px auto;
-  font-weight: bold;
-  display: flex;
-  justify-content:center;
-}
-#home form {
-  width: 100%;
-  height: 20px auto;
-  display: flex;
-  flex-direction: column;
-}
-#home form input {
-  height: 30px;
-  border-radius: 4px;
-  margin: 0px auto 10px auto;
-  font-size: 1rem;
-}
-#home form input[type=email] {
-  max-width: 320px;
-  width: 80%;
-}
-#home form input[type=submit] {
-  background-color: orange;
-  font-weight: bold;
-  max-width: 160px;
-  width: 70%;
-}
-#feature {
-  display: flex;
-  justify-content:center;
-}
-#working {
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-#working iframe {
-  margin: 80px auto 40px auto;
-  width: 90vw;
-  height: 50vw;
-  max-width:560px;
-  max-height: 315px;
-}
-#pricing {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: calc(100vh - 200px);
-}
-#pricing span {
-  width: 30%;
-  max-width: 260px;
-  height: 300px;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 8px;
-  border: 2px solid black;
-  box-sizing: border-box;
-  background-color: lightgray;
-  margin: 20px auto;
-}
-#pricing span div {
-  display: flex;
-}
-#pricing span .box-title {
-  width: 100%;
-  padding: 10px 0px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-  background-color: rgb(175, 175, 175);
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-}
-#pricing span .price {
-  font-size:1.4rem;
-  font-weight: bold;
-}
-#pricing span button {
-  width: auto;
-  padding: 0px 10px;
-  font-size: 1.1rem;
-  background-color: orange;
-  margin-bottom: 10px;
-  border-radius: 4px;
-}
-#footer {
+  padding: 0px;
   width: 100%;
   height: 100px;
-  display:flex;
-  flex-direction: column;
-  background-color: #999999;
-  bottom: 0px;
-}
-#footer span {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  position: fixed;
+  background-color: yellow;
+}
+#header #header-logo {
+  width: 20%;
+  min-width: 380px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 50%;
 }
-#footer span a {
-  text-decoration: none;
-  color: black;
+#header a{
+text-decoration: none;
+color: black;
 }
-#footer span .copyright {
+#header #header-logo h1{
+    font-size: 2em;
+}
+#header #header-logo img {
+width: 40px;
+}
+#header #nav-bar {
+  margin: 0px;
+  padding: 0px;
+  width: 80%;
+  height: 100%;
+  display: inline-flex;
   justify-content: space-around;
+  align-items: center;
 }
-@media (max-width:740px) {
-  body {
-    min-width: 340px;
-  }
-  nav {
-    display: block;
-    width: 100%;
+#header #nav-bar li {
+list-style: none;
 }
-nav header {
-    width: 100%;
-    min-width: 300px;
-    height: 60%;
+section {
+width: 100%;
+height: auto;
+padding-top:100px;
+margin: 0px;
 }
-nav ul {
-    width: 100%;
-    height: 40%;
+#home{
+display: flex;
+flex-direction: column;
+padding-top:160px;
+}
+#home div {
+margin: 20px auto;
+font-weight: bold;
+display: flex;
+justify-content:center;
+}
+#home form {
+width: 100%;
+height: 20px auto;
+display: flex;
+flex-direction: column;
+}
+#home form input {
+height: 30px;
+border-radius: 4px;
+margin: 0px auto 10px auto;
+font-size: 1rem;
+}
+#home form input[type=email] {
+max-width: 320px;
+width: 80%;
+}
+#home form input[type=submit] {
+background-color: orange;
+font-weight: bold;
+max-width: 160px;
+width: 70%;
+}
+#feature {
+display: flex;
+justify-content:center;
+}
+#working {
+display: flex;
+justify-content:center;
+align-items: center;
+}
+#working iframe {
+margin: 80px auto 40px auto;
+width: 90vw;
+height: 50vw;
+max-width:560px;
+max-height: 315px;
 }
 #pricing {
-  flex-direction: column;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+min-height: calc(100vh - 200px);
+}
+#pricing span {
+width: 30%;
+max-width: 260px;
+height: 300px;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+border: 2px solid black;
+box-sizing: border-box;
+background-color: lightgray;
+margin: 20px auto;
+}
+#pricing span div {
+display: flex;
+}
+#pricing span .box-title {
+width: 100%;
+padding: 10px 0px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+background-color: rgb(175, 175, 175);
+display: flex;
+justify-content: center;
+font-weight: bold;
+}
+#pricing span .price {
+font-size:1.4rem;
+font-weight: bold;
+}
+#pricing span button {
+width: auto;
+padding: 0px 10px;
+font-size: 1.1rem;
+background-color: orange;
+margin-bottom: 10px;
+border-radius: 4px;
+}
+#footer {
+width: 100%;
+height: 100px;
+display:flex;
+flex-direction: column;
+background-color: #999999;
+bottom: 0px;
+}
+#footer span {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+width: 100%;
+height: 50%;
+}
+#footer span a {
+text-decoration: none;
+color: black;
+}
+#footer span .copyright {
+justify-content: space-around;
+}
+@media (max-width:740px) {
+body {
+  min-width: 340px;
+}
+#header {
+  display: block;
+  width: 100%;
+}
+#header #header-logo {
+  width: 100%;
+  min-width: 300px;
+  height: 60%;
+}
+#header #nav-bar {
+  width: 100%;
+  height: 40%;
+}
+#pricing {
+flex-direction: column;
 }
 #pricing span{
-  width: 80%;
-  max-width: 240px;
+width: 80%;
+max-width: 240px;
 }
 #footer .policy {
-  justify-content: space-between;
-  width: calc(100% - 16px);
-  margin: 0px 8px;
+justify-content: space-between;
+width: calc(100% - 16px);
+margin: 0px 8px;
 }
 }
