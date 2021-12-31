@@ -1,4 +1,4 @@
-html, body{
+html, body {
     margin: 0px;
     padding: 0px;
     width: 100%;
@@ -6,6 +6,7 @@ html, body{
     scroll-behavior: smooth;
     font-size: 16px;
     background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 nav {
     width: 300px;
